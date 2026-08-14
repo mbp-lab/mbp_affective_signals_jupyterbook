@@ -1,5 +1,43 @@
 # Multimodal Behavior Processing: Affective Signals
-WiSe 2025/26 Bielefeld University
+WiSe 2026/27, Bielefeld University
+
+Lecture: Hanna Drimalla<br>
+Tutorials: Rituja Pardhi
+
+## Jupyter Book
+
+Once GitHub Pages is enabled, the course material will be available as a Jupyter Book at:
+
+<https://mbp-lab.github.io/mbp_affective_signals_jupyterbook/>
+
+The website provides the course structure and displays the existing notebooks. It does not execute the notebooks during the website build. Any outputs already saved in a notebook are preserved, while students run and edit their own copies locally using the Docker environment described below.
+
+## Build the Jupyter Book (MyST)
+
+From the repository root, install Jupyter Book if needed:
+
+```bash
+npm install -g jupyter-book
+```
+
+Build the static website:
+
+```bash
+jupyter-book build --html
+```
+
+Do **not** run `jupyter-book build .` — the `.` is treated as a file to export and can cause an `EISDIR` error.
+
+- **`--html`** creates the static HTML website under `_build/html`.
+- The build deliberately omits **`--execute`**, so it does not run the notebooks or replace their saved outputs.
+
+For a live preview while editing the book, run:
+
+```bash
+jupyter-book start
+```
+
+Pushes to `main` trigger the GitHub Pages deployment workflow. GitHub Pages must first be enabled in the repository settings with **GitHub Actions** selected as the publishing source.
 
 This is a repository containing jupyter-notebooks that explore different modalities that are used in multimodal analysis of human behaviour. More information about the course can be found [here](https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=395414864)
 
@@ -114,4 +152,3 @@ jupyter-notebook --no-browser --ip=0.0.0.0 --allow-root
 	-> run command with sudo, or manage docker rights
 * ```PermissionError: [Errno 13] Permission denied```
 	-> run command with sudo, or manage docker rights
-
