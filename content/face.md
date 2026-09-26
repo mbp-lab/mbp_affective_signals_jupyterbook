@@ -85,8 +85,6 @@ Researchers can describe both faces using patterns of Action Units and compare t
 
 ![Person A smiles and Person B shows a similar, subtler facial response involving AU6 and AU12](./images/face/facial-mimicry.jpg)
 
-*Course illustration of facial mimicry through a similar facial response.*
-
 Mimicry also depends on the social context and how another person’s expression is interpreted.
 
 </details>
