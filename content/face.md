@@ -3,7 +3,7 @@
 This chapter introduces the analysis of facial behaviour as an affective signal. You will work with features extracted from your own recording and explore facial action units and related visual information.
 
 <details>
-<summary><strong>Facial Expressions and FER</strong></summary>
+<summary><strong>Facial Expression Recognition (FER)</strong></summary>
 
 We tend to use facial expressions to communicate with each other and also express our emotional state. A facial expression is one or more motions or positions of the muscles beneath the skin of the face. These movements are believed to convey the emotional state of an individual to observers. Thus, facial expressions are one form of nonverbal communication. [Source](https://en.wikipedia.org/wiki/Facial_expression)
 
@@ -51,7 +51,11 @@ In manual coding, a trained observer examines an image or video and identifies t
 
 Reliable coding requires consistent judgements. Researchers can compare independent observers’ ratings to assess how closely they agree.
 
-[FACS overview](https://www.paulekman.com/facial-action-coding-system/) · [Illustrated reference](https://www.cs.cmu.edu/~face/facs.htm)
+![Example of a facial expression described using several FACS Action Units](./images/face/facs-example.png)
+
+*Image source: [Machine Perception Laboratory, UC San Diego — FACS Overview](https://mplab.ucsd.edu/grants/project1/research/face-detection.html).*
+
+[FACS overview](https://www.paulekman.com/facial-action-coding-system/)
 
 </details>
 
@@ -78,6 +82,10 @@ These measurements are model predictions. Lighting, head orientation, occlusion 
 Facial mimicry involves facial responses that resemble another person’s expression, such as smiling in response to a smile. It can occur spontaneously. Voluntary imitation involves deliberately reproducing an expression.
 
 Researchers can describe both faces using patterns of Action Units and compare those patterns. This makes it possible to study the strength, timing and similarity of facial responses.
+
+![Person A smiles and Person B shows a similar, subtler facial response involving AU6 and AU12](./images/face/facial-mimicry.jpg)
+
+*Course illustration of facial mimicry through a similar facial response.*
 
 Mimicry also depends on the social context and how another person’s expression is interpreted.
 
