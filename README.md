@@ -10,7 +10,7 @@ The course material will be available as a Jupyter Book at:
 
 <https://mbp-lab.github.io/mbp_affective_signals_jupyterbook/>
 
-The website provides the course structure and displays the existing notebooks. It does not execute the notebooks during the website build. Any outputs already saved in a notebook are preserved, while students run and edit their own copies locally using the Docker environment described below.
+The Jupyter Book contains the course structure and all notebooks used throughout the course. Students can view the notebooks online and run or edit their own copies locally using the Docker environment described below.
 
 ## Build the Jupyter Book (MyST)
 
