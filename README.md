@@ -6,7 +6,7 @@ Tutorials: Rituja Pardhi
 
 ## Jupyter Book
 
-Once GitHub Pages is enabled, the course material will be available as a Jupyter Book at:
+The course material will be available as a Jupyter Book at:
 
 <https://mbp-lab.github.io/mbp_affective_signals_jupyterbook/>
 
