@@ -6,6 +6,7 @@ services:
   notebook:
     #image: bhargav28/jupyter_signal:pyvhr
     image: 78485/rppg_custom:latest
+    platform: linux/amd64
     container_name: jupyter_notebook
     #build:
     # context: .
@@ -21,6 +22,7 @@ services:
 
   openface:
     image: bhargav28/openface
+    platform: linux/amd64
     container_name: openface
  #   build:
   #    context: .
