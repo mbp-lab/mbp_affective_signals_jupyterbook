@@ -12,35 +12,6 @@ The course material will be available as a Jupyter Book at:
 
 The Jupyter Book contains the course structure and all notebooks used throughout the course. Students can view the notebooks online and run or edit their own copies locally using the Docker environment described below.
 
-## Build the Jupyter Book (MyST)
-
-From the repository root, install Jupyter Book if needed:
-
-```bash
-npm install -g jupyter-book
-```
-
-Build the static website:
-
-```bash
-jupyter-book build --html
-```
-
-Do **not** run `jupyter-book build .` — the `.` is treated as a file to export and can cause an `EISDIR` error.
-
-- **`--html`** creates the static HTML website under `_build/html`.
-- The build deliberately omits **`--execute`**, so it does not run the notebooks or replace their saved outputs.
-
-For a live preview while editing the book, run:
-
-```bash
-jupyter-book start
-```
-
-Pushes to `main` trigger the GitHub Pages deployment workflow. GitHub Pages must first be enabled in the repository settings with **GitHub Actions** selected as the publishing source.
-
-This is a repository containing jupyter-notebooks that explore different modalities that are used in multimodal analysis of human behaviour. More information about the course can be found [here](https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=395414864)
-
 ## Installation Instructions
 In this course, you will be analyzing your own videos. To get the environment with all the necessary packages here we are going to use docker. The Docker container will be used as a development environment where you will run all the jupyter-notebooks.  
 
