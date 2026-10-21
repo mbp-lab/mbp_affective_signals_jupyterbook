@@ -1,7 +1,5 @@
 # Setup
 
-The setup information below is copied from the repository README for this first version of the course book.
-
 ## Installation Instructions
 In this course, you will be analyzing your own videos. To get the environment with all the necessary packages here we are going to use docker. The Docker container will be used as a development environment where you will run all the jupyter-notebooks.  
 
