@@ -23,6 +23,5 @@ Begin with the [Setup](./setup.md) chapter before opening the practical notebook
 4. [Breathing](./breathing.md)
 5. [Heart](./heart.md)
 
-Complete the assigned tasks in your local notebook, save the notebook with your code, answers, and generated outputs, and submit it through eKVV.
-
+Complete the assigned tasks in your local notebook, save the notebook with your code and written explainations, and submit it through Moodle
 </details>
