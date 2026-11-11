@@ -10,23 +10,23 @@ project:
 
     - file: content/face.md
     - file: Notebooks/affectiveSignalsFace.ipynb
-      hidden: true
+      
 
     - file: content/eyes.md
     - file: Notebooks/affectiveSignalsEyes_updated.ipynb
-      hidden: true
+      
 
     - file: content/voice.md
     - file: Notebooks/affectiveSignalVoice.ipynb
-      hidden: true
+      
 
     - file: content/breathing.md
     - file: Notebooks/affectiveSignals_Breathing_updated.ipynb
-      hidden: true
+      
 
     - file: content/heart.md
     - file: Notebooks/affectiveSignalHeart.ipynb
-      hidden: true
+      
 
 site:
   template: book-theme
