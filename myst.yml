@@ -29,7 +29,7 @@ project:
       hidden: true    
 
 site:
-  template: book-theme
+  template: https://github.com/myst-templates/book-theme/archive/45706bcb9ac02b6713270785e3fc22eda348ed3b.zip
   options:
     logo: assets/800px-HCAI_Logo.jpg
     style: assets/notebook-cells.css
